@@ -4,9 +4,13 @@
 
 <h3> 
     --- CONFIGURACIÓN DEL GRAFO ---
+    <br>
     Ingresa las conexiones: Origen Destino Peso
+    <br>
     Ejemplo: A B 5 (o 0 1 5)
+    <br>
     Escribe 'fin' para terminar.
+    <br>
 
     >> Ingresa arista (u v w): A B 10
     >> Ingresa arista (u v w): B C 5
