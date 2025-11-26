@@ -38,9 +38,13 @@
 </p>
 
 <h3>
+<br>
     >> Ingresa arista (u v w): A B 10
+    <br>
     >> Ingresa arista (u v w): B C 5
+    <br>
     >> Ingresa arista (u v w): A C 20
+    <br>
     >> Ingresa arista (u v w): fin
 
     ¿Qué deseas simular? (min/max): max
