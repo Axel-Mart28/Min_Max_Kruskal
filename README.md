@@ -34,5 +34,32 @@
 </h3>
 <br>
  <p>
-  <img src="images/minimo.png" alt="Ejecución de Prim" width="600">
+  <img src="images/min.png" alt="Ejecución de Kruskal minimo" width="600">
+</p>
+
+<h3>
+    >> Ingresa arista (u v w): A B 10
+    >> Ingresa arista (u v w): B C 5
+    >> Ingresa arista (u v w): A C 20
+    >> Ingresa arista (u v w): fin
+
+    ¿Qué deseas simular? (min/max): max
+
+    ========================================
+    INICIO KRUSKAL - ÁRBOL DE MÁXIMO COSTE
+    Aristas ordenadas: [('A', 'C', 20), ('A', 'B', 10), ('B', 'C', 5)]
+    ========================================
+
+    Paso 1: Arista (A-C, w=20) -> ACEPTADA (Une componentes)
+    Paso 2: Arista (A-B, w=10) -> ACEPTADA (Une componentes)
+    Paso 3: Arista (B-C, w=5) -> RECHAZADA (Forma ciclo)
+
+    ========================================
+    FIN. Costo Total: 30
+    Aristas finales: [('A', 'C'), ('A', 'B')]
+</h3>
+<br>
+<br>
+<p>
+  <img src="images/max.png" alt="Ejecución de Kruskal maximo" width="600">
 </p>
